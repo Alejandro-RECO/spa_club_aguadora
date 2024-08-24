@@ -10,7 +10,7 @@ export const Header = () => {
          {/* Ola como fondo */}
          <div className="absolute inset-0">
             <svg
-               className="w-full"
+               className="w-full h-[17rem]"
                xmlns="http://www.w3.org/2000/svg"
                viewBox="0 0 1440 320"
                preserveAspectRatio="none">

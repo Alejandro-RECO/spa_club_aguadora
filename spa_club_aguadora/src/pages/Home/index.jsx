@@ -1,5 +1,9 @@
+import { Carousel } from "../../components/Carousel";
+
 export const Home = () => {
    return (
-     <h1>Home 1</h1>
+    <section>
+      <Carousel />
+    </section>
    );
 };
