@@ -4,7 +4,7 @@ import { Header } from "../components/Header";
 export const Layout = () => {
    return (
       <>
-         <main className="flex flex-col gap-y-24 bg-gray-300">
+         <main className="flex flex-col bg-gray-300 h-screen">
             <Header />
             <Outlet />
          </main>
