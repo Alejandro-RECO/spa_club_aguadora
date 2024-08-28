@@ -21,6 +21,12 @@ export default {
         secondary: "#fefefe",
       }
     },
+    container: {
+      center: true,
+      maxWidth: {
+        DEFAULT: "100vw",
+      },
+    },
   },
   plugins: [],
 }

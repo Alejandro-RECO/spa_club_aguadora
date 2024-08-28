@@ -1,10 +1,14 @@
-// import { Carousel } from "../../components/Carousel";
+import { Carousel } from "../../components/Carousel";
+import { Information } from "../../components/Information";  
+import { Notiaguadora } from "../../components/Notiaguadora";
 
 
 export const Home = () => {
    return (
     <section>
-      
+      <Carousel />
+      <Notiaguadora/>
+      <Information/>
     </section>
    );
 };
