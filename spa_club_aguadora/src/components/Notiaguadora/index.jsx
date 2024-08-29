@@ -17,7 +17,7 @@ export const Notiaguadora = () => {
          </div>
          <div className="flex gap-x-5 items-center justify-center">
             <Tabs />
-            <article className="w-[40%] text-primary-900 p-8 shadow-xl">
+            <article className="w-[40%] text-primary-900 max-h-[650px] h-full p-8 shadow-xl">
                <h2 className="text-3xl text-center font-serif pb-5 font-bold"> {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_2}</h2>
                <Img
                   src={MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.IMAGE_1}
