@@ -1,6 +1,6 @@
 import { Carousel } from "../../components/Carousel";
 import { Information } from "../../components/Information";  
-import { Notiaguadora } from "./Notiaguadora";
+import { Notiaguadora } from "../../components/Notiaguadora";
 
 
 export const Home = () => {

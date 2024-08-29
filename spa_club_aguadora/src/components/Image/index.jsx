@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-export const Img = ({ src, alt, size, shape }) => {
+export const Img = ({ src, alt, size, shape, className }) => {
    const sizeClass = {
       s: "w-14 h-14",
       m: "w-48 h-48",
@@ -16,7 +16,7 @@ export const Img = ({ src, alt, size, shape }) => {
       <img
          src={src}
          alt={alt}
-         className={`${(sizeClass[size])} ${(shapeClass[shape])} object-cover`}
+         className={`${(sizeClass[size])} ${(shapeClass[shape])} object-cover ${className}`}
       />
    );
 };

@@ -122,6 +122,7 @@ export const MEDIA_PATHS = {
          establecimiento de las reglas claras para adoptar un manejo responsable de las finanzas y
          operación general de nuestro Club.`,
          SUBTITLE_3: "UNA EMPRESA DE TODOS PARA TODOS",
+         IMAGE_1: "./NA7.png",
          CONTENT_2: {
             TEXT_1:
                "La CORPORACION CLUB SOCIAL LA AGUADORA es nuestra empresa, se creó con el fin de brindar esparcimiento cultura, recreación y deporte a los asociados y sus familiares; tenemos unas instalaciones espectaculares que muy pocos tienen, por eso debemos aprovecharlas al máximo.",

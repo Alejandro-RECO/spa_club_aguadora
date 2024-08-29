@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { MEDIA_PATHS } from "../../../../Utils/Writers";
-import { Img } from "../../../../components/Image";
+import { MEDIA_PATHS } from "../../Utils/Writers";
+import { Img } from "../Image";
 
 export const Tabs = () => {
    const [activeTab, setActiveTab] = useState(0);
@@ -9,8 +9,8 @@ export const Tabs = () => {
 
    return (
       <>
-         <article className="w-[50%] text-primary-900 py-3 shadow-lg">
-            <h3 className="text-3xl text-center font-bold font-serif pt-3 uppercase">
+         <article className="w-[60%] text-primary-900 py-2 shadow-lg">
+            <h3 className="text-3xl text-center font-bold font-serif uppercase">
                {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_1}
             </h3>
             <p className="text-sm text-center text-primary-400">
@@ -34,7 +34,7 @@ export const Tabs = () => {
                </div>
 
                {/* Tab Content */}
-               <div className="">
+               <div>
                   {TABS.map(
                      (tab, index) =>
                         activeTab === index && (
