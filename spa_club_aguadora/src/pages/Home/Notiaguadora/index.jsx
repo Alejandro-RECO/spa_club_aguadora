@@ -1,5 +1,6 @@
-import { MEDIA_PATHS } from "../../Utils/Writers";
-import { Tabs } from "../Tabs";
+// import { MEDIA_PATHS } from "../../Utils/Writers";
+import { MEDIA_PATHS } from "../../../Utils/Writers";
+import { Tabs } from "./Tabs";
 
 export const Notiaguadora = () => {
    return (
@@ -13,14 +14,6 @@ export const Notiaguadora = () => {
                <span>{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.DATE}</span>
             </div>
          </div>
-         <article className="text-center text-primary-900 py-3">
-            <h3 className="text-3xl font-bold font-serif pt-3 uppercase">
-               {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_1}
-            </h3>
-            <p className="text-sm text-primary-400">
-               {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.DESCRIPTION_1}
-            </p>
-         </article>
          <Tabs />
       </section>
    );
