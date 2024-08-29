@@ -9,7 +9,7 @@ export const Tabs = () => {
 
    return (
       <>
-         <article className="w-[60%] text-primary-900 py-2 shadow-lg">
+         <article className="w-[60%] text-primary-900 py-2 shadow-lg flex flex-col justify-center">
             <h3 className="text-3xl text-center font-bold font-serif uppercase">
                {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_1}
             </h3>
