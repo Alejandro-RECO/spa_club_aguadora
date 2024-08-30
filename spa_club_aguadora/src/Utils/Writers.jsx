@@ -94,22 +94,22 @@ export const MEDIA_PATHS = {
                TITLE: "Antes",
                DESCRIPTION:
                   "Los baños de nuestro querido Club se encontraban sin adecuaciones ni remodelaciones desde hace bastante tiempo, presentando problemas derivados de su uso y desgaste.",
-               IMAGE_1:'./NA1.png',
-               IMAGE_2:'./NA2.png',
+               IMAGE_1: "./NA1.png",
+               IMAGE_2: "./NA2.png",
             },
             {
                TITLE: "En Obra",
                DESCRIPTION:
                   "El 08 de mayo de 2023, Según el Acta de reunión de la Junta Directiva No. 308, se aprueba el presupuesto de $51.817.958 para la remodelación de los baños de la Bolera.",
-                  IMAGE_1:'./NA3.png',
-                  IMAGE_2:'./NA4.png',
+               IMAGE_1: "./NA3.png",
+               IMAGE_2: "./NA4.png",
             },
             {
                TITLE: "Ahora",
                DESCRIPTION:
                   "Ahora ya podemos contar con baterías de baños renovadas en todas las instalaciones de ¡La Aguadora, Tu Club!, en la Bolera, en los baños de los salones del piso 1 y en La Aguadita. Disfrútalos.",
-                  IMAGE_1:'./NA5.png',
-                  IMAGE_2:'./NA6.png',
+               IMAGE_1: "./NA5.png",
+               IMAGE_2: "./NA6.png",
             },
          ],
          SUBTITLE_2: "¿En qué anda la Junta Directiva?",
@@ -122,8 +122,9 @@ export const MEDIA_PATHS = {
          establecimiento de las reglas claras para adoptar un manejo responsable de las finanzas y
          operación general de nuestro Club.`,
          IMAGE_1: "./NA7.png",
-         SUBTITLE_3: "UNA EMPRESA DE TODOS PARA TODOS",
          CONTENT_2: {
+            SUBTITLE_3: "UNA EMPRESA DE TODOS PARA TODOS",
+            IMAGE_1: "./NA8.jpg",
             TEXT_1:
                "La CORPORACION CLUB SOCIAL LA AGUADORA es nuestra empresa, se creó con el fin de brindar esparcimiento cultura, recreación y deporte a los asociados y sus familiares; tenemos unas instalaciones espectaculares que muy pocos tienen, por eso debemos aprovecharlas al máximo.",
             TEXT_2:
@@ -133,9 +134,9 @@ export const MEDIA_PATHS = {
                "La organización y la logística de todos los eventos se ha logrado a través de los comités (de Deportes, Ambiental, Social y Administrativo), la administración y los trabajadores de la Corporación a quienes les expresamos nuestros mas sinceros agradecimientos, ha sido un esfuerzo colectivo con resultados extraordinarios.",
             TEXT_4:
                "Esperamos que usted señor(a) asociado(a), familiar, invitado, visitante, participe y disfrute los eventos programados para el año 2024",
+            PRESIDENT: "José Eduardo Arias Pulido",
+            POST: "Presidente Junta Directiva ",
          },
-         PRESIDENT: "José Eduardo Arias Pulido",
-         POST: "Presidente Junta Directiva ",
          SUBTITLE_4: "y...¿Enqueseestátrabajando?",
          CONTENT_3: {
             TEXT_1:
