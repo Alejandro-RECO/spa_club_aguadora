@@ -44,18 +44,21 @@ export const Tabs = () => {
                               <p className="text-center w-[80%] font-serif py-3 md:px-4 my-2">
                                  {tab.DESCRIPTION}
                               </p>
-                              <div className="flex items-center justify-center gap-x-2 md:gap-x-10">
+                              <div className="flex flex-col xl:flex-row items-center justify-center gap-x-2">
                                  <Img
                                     src={tab.IMAGE_1}
                                     alt={tab.TITLE}
-                                    size={"m"}
                                     shape={"rounded"}
+                                    size={"l"}
+                                    className={""}
+
                                  />
                                  <Img
                                     src={tab.IMAGE_2}
                                     alt={tab.TITLE}
-                                    size={"m"}
                                     shape={"rounded"}
+                                    size={"l"}
+                                    className={"hidden xl:block"}
                                  />
                               </div>
                            </div>
