@@ -9,7 +9,7 @@ export const Tabs = () => {
 
    return (
       <>
-         <article className="w-[60%] text-primary-900 py-2 shadow-lg flex flex-col justify-center">
+         <article className="w-[50%] text-primary-900 py-2 shadow-lg flex flex-col justify-center">
             <h3 className="text-3xl text-center font-bold font-serif uppercase">
                {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_1}
             </h3>
@@ -18,7 +18,7 @@ export const Tabs = () => {
             </p>
             <div className="flex flex-col items-center py-5">
                {/* Tab Headers */}
-               <div className="flex justify-center gap-x-5 w-[45%] p-2 rounded-md">
+               <div className="flex justify-center gap-x-5 w-[55%] p-2 rounded-md">
                   {TABS.map((tab, index) => (
                      <button
                         key={index}
@@ -48,13 +48,13 @@ export const Tabs = () => {
                                  <Img
                                     src={tab.IMAGE_1}
                                     alt={tab.TITLE}
-                                    size={"l"}
+                                    size={"m"}
                                     shape={"rounded"}
                                  />
                                  <Img
                                     src={tab.IMAGE_2}
                                     alt={tab.TITLE}
-                                    size={"l"}
+                                    size={"m"}
                                     shape={"rounded"}
                                  />
                               </div>
