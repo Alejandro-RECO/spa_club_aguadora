@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { MEDIA_PATHS } from "../../Utils/Writers";
-import { Img } from "../Image";
+import { MEDIA_PATHS } from "../../../../Utils/Writers"
+import { Img } from "../../../../components/Image";
 
 export const Tabs = () => {
    const [activeTab, setActiveTab] = useState(0);

@@ -7,7 +7,6 @@ export const Cart = ({
 }) => {
 
    const Icon = iconsMap[iconName];
-   console.log(Icon);
    return (
       <div className="w-[340px] h-[290px] flex-shrink-0 gap-y-5 bg-slate-100 p-6 rounded-sm">
          {Icon ? <Icon className="text-4xl text-primary-500" /> : null }

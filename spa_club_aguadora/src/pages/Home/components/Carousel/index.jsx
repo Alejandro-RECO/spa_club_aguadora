@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Carousel.css"; // Archivo para estilos adicionales
-import { MEDIA_PATHS } from "../../Utils/Writers";
+import { MEDIA_PATHS } from "../../../../Utils/Writers";
 
 export const Carousel = () => {
    const [currentIndex, setCurrentIndex] = useState(0);

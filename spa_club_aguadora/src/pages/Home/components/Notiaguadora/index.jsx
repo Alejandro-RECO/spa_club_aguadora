@@ -1,7 +1,7 @@
 // import { MEDIA_PATHS } from "../../Utils/Writers";
-import { MEDIA_PATHS } from "../../Utils/Writers";
-import { Img } from "../Image";
+import { MEDIA_PATHS } from "../../../../Utils/Writers";
 import { Tabs } from "../Tabs";
+import { ContainerInfo } from "../ContainerInfo";
 
 export const Notiaguadora = () => {
    return (
@@ -17,19 +17,7 @@ export const Notiaguadora = () => {
          </div>
          <div className="flex gap-x-5 justify-center">
             <Tabs />
-            <article className="w-[50%] text-primary-900 p-8 shadow-xl ">
-               <h2 className="text-3xl text-center font-serif pb-5 font-bold"> {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_2}</h2>
-               <Img
-                  src={MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.IMAGE_1}
-                  alt="Example"
-                  size={"l"}
-                  shape={"rounded"}
-                  className="float-left mr-4 mb-4 w-48 h-auto"
-               />
-               <p className="text-gray-700 text-justify">
-                  {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.DESCRIPTION_2}
-               </p>
-            </article>
+            <ContainerInfo />
          </div>
       </section>
    );
