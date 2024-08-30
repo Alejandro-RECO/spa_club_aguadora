@@ -112,7 +112,7 @@ export const MEDIA_PATHS = {
                   IMAGE_2:'./NA6.png',
             },
          ],
-         SUBTITLE_2: "Enqueanda laJunta Directiva?",
+         SUBTITLE_2: "¿En qué anda la Junta Directiva?",
          DESCRIPTION_2: `Es prioridad para esta Junta Directiva, adelantar la actualización del Estatuto vigente y del
          Manual de Procesos y Procedimientos, esto acorde con la necesidad apremiante de
          mantenernos al día con las últimas tendencias, para lo que estamos desarrollando
@@ -121,8 +121,8 @@ export const MEDIA_PATHS = {
          establecidos en el manual de procesos y procedimientos, también va orientado hacia el
          establecimiento de las reglas claras para adoptar un manejo responsable de las finanzas y
          operación general de nuestro Club.`,
-         SUBTITLE_3: "UNA EMPRESA DE TODOS PARA TODOS",
          IMAGE_1: "./NA7.png",
+         SUBTITLE_3: "UNA EMPRESA DE TODOS PARA TODOS",
          CONTENT_2: {
             TEXT_1:
                "La CORPORACION CLUB SOCIAL LA AGUADORA es nuestra empresa, se creó con el fin de brindar esparcimiento cultura, recreación y deporte a los asociados y sus familiares; tenemos unas instalaciones espectaculares que muy pocos tienen, por eso debemos aprovecharlas al máximo.",
