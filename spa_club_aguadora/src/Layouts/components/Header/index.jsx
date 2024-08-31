@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import { MEDIA_PATHS } from "../../Utils/Writers";
-import { Img } from "../Image";
+import { MEDIA_PATHS } from "../../../Utils/Writers";
+import { Img } from "../../../components/Image";
 import { Nav } from "../Nav";
 import { Networks } from "../Networks";
+
 
 export const Header = () => {
    return (

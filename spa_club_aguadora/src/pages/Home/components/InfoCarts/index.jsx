@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { iconsMap } from "../../Utils/IconsMap";
+import { iconsMap } from "../../../../Utils/IconsMap";
 export const Cart = ({
     icon: iconName,
     title,

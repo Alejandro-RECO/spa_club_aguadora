@@ -1,5 +1,5 @@
-import { MEDIA_PATHS } from "../../Utils/Writers"
-import { LinkComponet } from "../Link"
+import { MEDIA_PATHS } from "../../../Utils/Writers"
+import { LinkComponet } from "../../../components/Link"
 export const Nav = () => {
   return (
     <nav className="w-[40%]">

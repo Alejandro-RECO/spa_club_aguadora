@@ -1,5 +1,5 @@
 import { MEDIA_PATHS } from "../../../../Utils/Writers";
-import { Cart } from "../../../../components/Carts"
+import { Cart } from "../InfoCarts";
 
 export const Information = () => {
    const CONTENT_CARTS = MEDIA_PATHS.HOME.INFORMATION;

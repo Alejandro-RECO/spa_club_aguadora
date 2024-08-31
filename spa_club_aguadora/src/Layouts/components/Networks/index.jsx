@@ -1,4 +1,4 @@
-import { MEDIA_PATHS } from "../../Utils/Writers";
+import { MEDIA_PATHS } from "../../../Utils/Writers";
 import {
    RiFacebookCircleFill,
    RiInstagramFill,
