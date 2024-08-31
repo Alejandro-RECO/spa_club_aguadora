@@ -17,6 +17,7 @@ export const Img = ({ src, alt, size, shape, className }) => {
          src={src}
          alt={alt}
          className={`${(sizeClass[size])} ${(shapeClass[shape])} object-cover ${className}`}
+         loading="lazy"
       />
    );
 };

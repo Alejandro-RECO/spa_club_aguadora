@@ -37,7 +37,7 @@ export const Notiaguadora = () => {
                   <p>{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.CONTENT_2.TEXT_3}</p>
                   <p>{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.CONTENT_2.TEXT_4}</p>
                </div>
-               <q className="font-semibold">{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.CONTENT_2.PRESIDENT}</q>
+               <q className="font-semibold pt-2">{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.CONTENT_2.PRESIDENT}</q>
                <span>{MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.CONTENT_2.POST}</span>
             </div>
          </article>

@@ -32,7 +32,7 @@ export const Carousel = () => {
                   />
                   <div className="absolute inset-0 flex flex-col items-center text-center pt-32 text-white bg-black bg-opacity-30">
                      <h3
-                        className={`font-bold text-2xl md:text-5xl uppercase text-gray-100 transform transition-transform duration-1000 p-2 md:w-[70%] ${
+                        className={`font-bold text-xl md:text-5xl uppercase text-gray-100 transform transition-transform duration-1000 p-2 md:w-[70%] ${
                            currentIndex === index
                               ? "translate-y-10 opacity-100"
                               : "-translate-y-0 opacity-0"
