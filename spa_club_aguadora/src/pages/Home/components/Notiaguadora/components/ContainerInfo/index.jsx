@@ -1,8 +1,9 @@
-import { MEDIA_PATHS } from "../../../../Utils/Writers";
+import { MEDIA_PATHS } from "../../../../../../Utils/Writers";
+
 
 export const ContainerInfo = () => {
    return (
-      <article className="flex flex-col md:w-[40%] shadow-xl rounded">
+      <article className="flex flex-col lg:w-[30%] shadow-xl rounded">
          <div className="relative h-36">
             <img
                src={MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.IMAGE_1}

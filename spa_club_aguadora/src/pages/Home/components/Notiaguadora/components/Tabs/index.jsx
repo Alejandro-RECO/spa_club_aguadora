@@ -1,6 +1,8 @@
 import { useState } from "react";
-import { MEDIA_PATHS } from "../../../../Utils/Writers"
-import { Img } from "../../../../components/Image";
+
+
+import { MEDIA_PATHS } from "../../../../../../Utils/Writers";
+import { Img } from "../../../../../../components/Image";
 
 export const Tabs = () => {
    const [activeTab, setActiveTab] = useState(0);
@@ -9,7 +11,7 @@ export const Tabs = () => {
 
    return (
       <>
-         <article className=" md:w-[50%] text-primary-900 py-2 shadow-lg flex flex-col justify-center">
+         <article className=" lg:w-[70%] text-primary-900 py-2 shadow-lg flex flex-col justify-center">
             <h3 className="text-3xl text-center font-bold font-serif uppercase">
                {MEDIA_PATHS.HOME.NOTIAGUADORA_ED_2.SUBTITLE_1}
             </h3>

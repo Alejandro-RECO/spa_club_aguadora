@@ -138,14 +138,20 @@ export const MEDIA_PATHS = {
             POST: "Presidente Junta Directiva ",
          },
          SUBTITLE_4: "y...¿Enqueseestátrabajando?",
-         CONTENT_3: {
-            TEXT_1:
-               "Estamos repintando y delimitando las áreas comunes, parqueaderos y señalizaciones en nuestro Club. El personal de mantenimiento locativo está trabajando a toda máquina y Está quedando muuuy bonito",
-            TEXT_2:
-               "Nos estamos actualizando tecnológicamente, con nuevos dispositivos que nos permiten mantenernos a la vanguardia de los avances en telecomunicaciones, equipos de cómputo y seguridad informática.",
-            TEXT_3:
-               "Se están realizando reparaciones en la fachada y las zonas expuestas y desgastadas debido a influencia del clima. Nuestro compromiso es mantener nuestro Club hermoso siempre.",
-         },
+         CONTENT_3: [
+            {
+               TEXT: "Estamos repintando y delimitando las áreas comunes, parqueaderos y señalizaciones en nuestro Club. El personal de mantenimiento locativo está trabajando a toda máquina y Está quedando muuuy bonito",
+               IMAGE: "./NA8.png",
+            },
+            {
+               TEXT: "Nos estamos actualizando tecnológicamente, con nuevos dispositivos que nos permiten mantenernos a la vanguardia de los avances en telecomunicaciones, equipos de cómputo y seguridad informática.",
+               IMAGE: "./NA9.png",
+            },
+            {
+               TEXT: "Se están realizando reparaciones en la fachada y las zonas expuestas y desgastadas debido a influencia del clima. Nuestro compromiso es mantener nuestro Club hermoso siempre.",
+               IMAGE: "./NA10.png",
+            },
+         ],
          FOOTER:
             "En ¡tu Club La Aguadora! te escuchamos, si tienes una idea de mejora, no dudes en compartirla, estamos prestos a atenderte. Escríbenos al correo lineaetica@clublaaguadora.com, agradecemos tu aporte.",
       },
