@@ -137,7 +137,7 @@ export const MEDIA_PATHS = {
             PRESIDENT: "José Eduardo Arias Pulido",
             POST: "Presidente Junta Directiva ",
          },
-         SUBTITLE_4: "y...¿Enqueseestátrabajando?",
+         SUBTITLE_4: "y...¿En que se está trabajando?",
          CONTENT_3: [
             {
                TEXT: "Estamos repintando y delimitando las áreas comunes, parqueaderos y señalizaciones en nuestro Club. El personal de mantenimiento locativo está trabajando a toda máquina y Está quedando muuuy bonito",
